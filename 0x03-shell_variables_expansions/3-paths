@@ -1,2 +1,2 @@
 #!/bin/bash
-num_directories=${#path_dirs[@]}
+find -mindepth 1 -type d | wc -l
